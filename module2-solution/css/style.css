@@ -1,0 +1,85 @@
+.row {
+  width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+div.menuitem {
+	background-color: gray;
+	border: 1px solid black;
+	margin: 15px;
+}
+
+div.food {
+	font-size: 125%;
+	text-align: right;
+	float: right;
+	border: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+	border-right: 0px;
+	border-top: 0px;
+}
+
+p.description {
+	padding-top: 25px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#chicken {
+	background-color: pink;
+}
+
+#beef {
+	background-color: red;
+}
+
+#sushi {
+	background-color: goldenrod;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-1{
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-1 {
+    width: 100%;
+  }
+}
+
+/********** Tablet **********/
+@media (max-width: : 767px ) {
+  .col-sm-1 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 100%;
+  }
+}
